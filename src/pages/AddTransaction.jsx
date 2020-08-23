@@ -47,7 +47,7 @@ const AddTransaction = ({ history }) => {
             </div>
 
             <div className="form-group">
-              <input value={formData.amount} onChange={handleOnChange} required placeholder="Amount" className="form-control" type="number" name="amount" />
+              <input min="1" value={formData.amount} onChange={handleOnChange} required placeholder="Amount" className="form-control" type="number" name="amount" />
             </div>
 
             <div className="form-group">
